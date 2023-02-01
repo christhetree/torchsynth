@@ -6,7 +6,7 @@ from copy import deepcopy
 
 import torch
 
-from torchsynth.signal import Signal
+from torchsynth.signal_ import Signal
 
 
 class TestSignal:

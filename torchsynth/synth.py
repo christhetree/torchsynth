@@ -45,7 +45,7 @@ from torchsynth.module import (
     SynthModule,
 )
 from torchsynth.parameter import ModuleParameter
-from torchsynth.signal import Signal
+from torchsynth.signal_ import Signal
 
 
 class AbstractSynth(LightningModule):

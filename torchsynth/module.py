@@ -14,7 +14,7 @@ from torch import tensor
 import torchsynth.util as util
 from torchsynth.config import BASE_REPRODUCIBLE_BATCH_SIZE, SynthConfig
 from torchsynth.parameter import ModuleParameter, ModuleParameterRange
-from torchsynth.signal import Signal
+from torchsynth.signal_ import Signal
 
 
 class SynthModule(nn.Module):

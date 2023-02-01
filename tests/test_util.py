@@ -6,7 +6,7 @@ import torch
 from torch import tensor
 
 import torchsynth.util as util
-from torchsynth.signal import Signal
+from torchsynth.signal_ import Signal
 
 
 class TestTorchUtil:

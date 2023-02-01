@@ -5,7 +5,7 @@ Utility functions for torch DSP related things
 import torch
 from torch import Tensor as T
 
-from torchsynth.signal import Signal
+from torchsynth.signal_ import Signal
 
 torch.pi = torch.acos(torch.zeros(1)).item() * 2  # which is 3.1415927410125732
 
