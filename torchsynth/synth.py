@@ -17,6 +17,7 @@ from collections import OrderedDict
 from typing import Any, Dict, List, Optional, Tuple, Union
 
 import pkg_resources
+from pytorch_lightning import LightningModule
 
 if sys.version_info.major == 3 and sys.version_info.minor >= 8:
     from typing import OrderedDict as OrderedDictType
@@ -26,7 +27,6 @@ else:
     from typing import Dict as OrderedDictType
 
 import torch
-from lightning import LightningModule
 from torch import Tensor as T
 
 from torchsynth.config import N_BATCHSIZE_FOR_TRAIN_TEST_REPRODUCIBILITY, SynthConfig
